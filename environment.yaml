@@ -1,0 +1,42 @@
+# conda environment description file for Becca's atmos forcing
+# downscaling project
+#
+# To create and environment from this file:
+#    $ conda env create -f environment.yaml
+# To activate that env:
+#    $ conda activate prodigy
+# To deactivate the env:
+#    (eosc510)$ deactivate
+# To add a new package to the env, add it to the dependencies list
+# below, then:
+#    (eosc510)$ conda env update -f environment.yaml
+# Choose a good name for your env!  Then replace env-name below with it
+name: prodigy
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - arrow
+  - bottleneck
+  - cmocean
+  - jupyterlab
+  - matplotlib
+  - netCDF4
+  - numpy
+  - pandas
+  - pip
+  - python=3
+  - pytz
+  - tqdm
+  - scipy
+  - xarray
+  - scikit-learn
+  - dask
+  - pyproj
+  - pathlib
+  
+  - pip:
+#    - salishsea_tools
+    - calendar
+    
+# pip install --user --editable /ocean/rbeutel/MEOPAR/tools/SalishSeaTools
