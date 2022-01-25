@@ -35,8 +35,8 @@ dependencies:
   - pyproj
   - pathlib
   
-  - pip:
+#  - pip:
 #    - salishsea_tools
-    - calendar
+#    - calendar
     
 # pip install --user --editable /ocean/rbeutel/MEOPAR/tools/SalishSeaTools
