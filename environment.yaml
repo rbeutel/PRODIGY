@@ -30,7 +30,7 @@ dependencies:
   - tqdm
   - scipy
   - xarray
-  - scikit-learn
+  - scikit-learn=0.24.1
   - dask
   - pyproj
   - pathlib
