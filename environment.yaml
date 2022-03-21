@@ -19,6 +19,7 @@ dependencies:
   - arrow
   - bottleneck
   - cmocean
+  - cartopy
   - jupyterlab
   - matplotlib
   - netCDF4
@@ -34,6 +35,7 @@ dependencies:
   - dask
   - pyproj
   - pathlib
+  - ipympl
   
 #  - pip:
 #    - salishsea_tools
